@@ -1,3 +1,45 @@
+# weather              package:nycflights13              R Documentation
+#
+# Hourly weather data
+#
+# Description:
+#
+#      Hourly meterological data for LGA, JFK and EWR.
+#
+# Usage:
+#
+#      weather
+#
+# Format:
+#
+#      A data frame with columns
+#
+#      origin Weather station. Named origin to faciliate merging with
+#           ‘flights’ data
+#
+#      year,month,day,hour Time of recording
+#
+#      temp,dewp Temperature and dewpoint in F
+#
+#      humid Relative humidity
+#
+#      wind_dir,wind_speed,wind_gust Wind direction (in degrees), speed
+#           and gust speed (in mph)
+#
+#      precip Preciptation, in inches
+#
+#      pressure Sea level pressure in millibars
+#
+#      visib Visibility in miles
+#
+#      time_hour Date and hour of the recording as a ‘POSIXct’ date
+#
+# Source:
+#
+#      ASOS download from Iowa Environmental Mesonet,
+#      https://mesonet.agron.iastate.edu/request/download.phtml.
+#
+#      Hadley Wickam’s nycflights13-0.2.1 package, see http://cran.r-project.org/package=nycflights13
 "origin","year","month","day","hour","temp","dewp","humid","wind_dir","wind_speed","wind_gust","precip","pressure","visib","time_hour"
 "EWR",2013,1,1,0,37.04,21.92,53.97,230,10.35702,11.9186514756,0,1013.9,10,2013-01-01 01:00:00
 "EWR",2013,1,1,1,37.04,21.92,53.97,230,13.80936,15.8915353008,0,1013,10,2013-01-01 02:00:00
